@@ -1,0 +1,107 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #576fcd, #8065e4c3);
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.profile-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;  /* Increased size */
+    height: 150px; /* Increased size */
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic img {
+    width: 150px;  /* Increased size */
+    height: 150px; /* Increased size */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* Section Styling */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #7b37a9;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-grid span {
+    background: #0ca5cb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.soft-skills {
+    
+    color: rgb(16, 11, 11);
+    padding: 8px 6px;
+    border-radius: 9px;
+    font-weight: pointer;
+
+}
+/*.soft-skills p {
+    background: #756c96c3;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}*/
+
+.language-selector {
+    margin: 10px;
+    padding: 10px;
+    /*background-color: #007BFF;*/
+    color: rgb(25, 4, 4);
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact Links */
+a {
+    text-decoration: none;
+    color: #13cdcd;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff758c;
+}
