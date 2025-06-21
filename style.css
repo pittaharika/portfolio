@@ -1,0 +1,110 @@
+*{
+     margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+}
+body{
+       background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+       color: #222;
+       min-height: 100vh;
+    
+      
+}
+header{
+    border-radius: 6px;
+      height: 50vh;
+      text-align: center;
+      background: linear-gradient(to right, #577dba, #c2e9fb);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+
+    
+    
+}
+.myimage{
+   
+    height: 190px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
+}
+.text{
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+
+section{
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 10px;
+     margin: 15px auto;
+      padding: 15px;
+      max-width: 900px;
+      background-color: rgba(255, 255, 255, 0.6);
+}
+h2 , h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about-me ,
+.education-section,
+.skills-section,
+.intership-details,
+.description,
+.contacts{
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+  
+}
+.btn, .btn-skill {
+     color: white;
+      background-color: rgb(105, 173, 205);
+      border: none;
+      border-radius: 6px;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      display: inline-block;
+}
+.btn:hover, .btn-skill:hover {
+  background-color: #3d6ea3;
+  border-color: #3d6ea3;
+  transform: scale(1.05);
+}
+
+.contacts a{
+    color: #222;
+    text-decoration: none;
+    margin-left: 5px;
+    
+
+}
+footer{
+    padding: 10px;
+    border-radius: 7px;
+    height: 50px;
+    background-color: black;
+    color: grey;
+    text-align: center;
+}
+@media (max-width: 768px) {
+      .myimage {
+        height: 150px;
+        width: 150px;
+      }
+
+      .btn, .btn-skill {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+
